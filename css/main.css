@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(45deg,rgb(72, 42, 182), rgb(221, 211, 213));
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.notch{
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px 40px 0 0 ;
+    width: 100%;
+}
+.barra{
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 0 0 30px 30px;
+    height: 40px;
+    width: 50%
+}
+.estrutura{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 690px;
+    max-width: 342px;
+    transform: translate(-50%,-50%);
+    background:  #ddd9ce;
+    border: solid 10px black;
+    border-radius: 50px;
+}
+#resultado{
+    height: 120px;
+    text-align: right;
+    font-size: 50px;
+    color: purple;
+    max-width: 100%;
+    margin-top: 60px;
+}
+table{
+    margin: 0 auto;
+}
+.botao{
+    border: solid white 1px;
+    font-size: 30px;
+    background-color: white;
+    color: purple;
+    height: 80px;
+    border-radius: 15px;
+    margin: 3px;
+    width:70px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgba(211, 12, 211, 0.295);
+    border: none;
+}
+.maiores{
+    width: 150px;
+}
+.sinal{
+    background-color: rgba(211, 12, 211, 0.295);
+    border: none;
+}
+.sinal:hover{
+    background-color: rgba(102, 7, 102, 0.959);
+    color: white;
+}
+#igual{
+    background-color: rgba(102, 7, 102, 0.959);
+    border: none;
+    color: white;
+}
